@@ -1,9 +1,5 @@
 use std::env;
 
-// 1) Grab command line numbers
-    //    - args[1]: width
-    //    - args[2]: height
-
 fn main() {
     
     let args: Vec<String> = env::args().collect();
@@ -29,4 +25,11 @@ fn main() {
         println!();
     }
     // 2) generate world
+    //  a. ) Build background 
+    //  b. ) Add clouds
+    //  c. ) Add ground layer
+    //  d. ) Add grass
+    //  e. ) Add objets
+
+    
 }
